@@ -2,8 +2,7 @@
 基于muduo库、mysql和redis的发布-订阅机制的，可以工作在nginx tcp负载均衡环境中的集群聊天服务器和客户端源码
 
 在根目录下
-cmake ./
-cmake --build ./
+./autobuild.sh编译项目
 
 开启nginx的tcp负载均衡服务
 
